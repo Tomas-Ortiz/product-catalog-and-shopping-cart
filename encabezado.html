@@ -1,0 +1,10 @@
+<div class="encabezado col-md-12 col-lg-12">
+    <div class="divCarro">
+        <a href="productosCarro.php"><i class="btnCarro btn fas fa-shopping-cart fa-2x"></i></a>
+        <input type="text" id="cantProdCarro" value="0" readonly>
+    </div>
+</div>
+
+<script type="text/javascript">
+    actualizarCantCarro(<?php echo count($_SESSION['carro']);?>);
+</script>

@@ -1,0 +1,50 @@
+.encabezado{
+    background-color: khaki;
+    padding: 1%;
+}
+.card h6{
+    font-size: 15px;
+    font-family: Century;
+}
+
+.card-header .eliminarFiltro{
+    font-family: Century;
+    width: 100%;
+}
+.divCarro .btnCarro{
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 5%;
+}
+
+.divCarro #cantProdCarro{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 2%;
+    border-radius: 55px;
+    color: white;
+    right: 5%;
+    bottom: 5%;
+    font-size: 15px;
+}
+
+.divCarro{
+    text-align: right;
+}
+
+.filtros{
+    margin-top: 5%;
+    margin-left: -0.5%;
+    margin-bottom: 5%;
+}
+
+.inputPrecios{
+    width: 90%;
+}
+.btnRangoPrecio{
+    position: absolute;
+    left: 105%;
+    top: 50%;
+}
+

@@ -1,0 +1,38 @@
+
+.table {
+    border-collapse: separate;
+    margin-top: 5%;
+}
+
+.table tbody > tr > td {
+    font-size: 0.875em;
+    background: #f5f5f5;
+    border-top: 10px solid #fff;
+    vertical-align: middle;
+    padding: 12px 8px;
+}
+
+.table tbody > tr > td:first-child,
+.table thead > tr > th:first-child {
+    padding-left: 20px;
+}
+
+table td {
+    text-align: center;
+    font-family: Century;
+}
+
+#LimpiarCarro, #Comprar{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 67.5%;
+}
+#volverProd{
+    font-size: 17px;
+}
+#LimpiarCarro, #Comprar, #volverProd{
+    font-family: "Times New Roman";
+    margin-bottom: 5%;
+}
+

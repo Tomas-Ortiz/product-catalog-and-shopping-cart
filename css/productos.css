@@ -1,0 +1,41 @@
+
+.product-grid {
+    padding-top: 68px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 0px 0px 1px rgb(199, 199, 199);
+    transition: all .25s ease;
+    max-width: 290px;
+    position:relative;
+}
+
+.grid-item:hover {
+    box-shadow: 0px 0px 20px -1px rgb(99, 99, 99);
+}
+
+.grid-item h1 {
+    font-size: 23px;
+    font-family: Century;
+    margin-bottom: 10px
+}
+
+.grid-item h3 {
+    font-family: Century;
+    margin-top: 10px;
+}
+
+.add-to-cart-button {
+    background: cornflowerblue;
+}
+.add-to-cart-button:hover{
+    background: deepskyblue;
+}
+.cantidad-producto input{
+    position: relative;
+    max-width: 20%;
+    left: 40%;
+    margin-bottom: 3%;
+}

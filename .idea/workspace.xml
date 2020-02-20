@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0d7c21f-4bd8-4f5f-9c99-b2b75a4246c9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1X9VU8WnbkKcyytgOo0J9Ez6NNf" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Xampp\htdocs\ProductosYCarro\php" />
+      <recent name="D:\Xampp\htdocs\ProductosCarro\php" />
+      <recent name="D:\Xampp\htdocs" />
+      <recent name="D:\PhpStorm 2019.2.4\ProductosCarro\js" />
+      <recent name="D:\PhpStorm 2019.2.4\ProductosCarro\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Inicio.php (3)">
+    <configuration name="Inicio.php (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/80/ProductosCarro/Inicio.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Inicio.php (6)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/http:/localhost:80/ProductosCarro/ProductosCarro/Inicio.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Inicio.php" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:80/ProductosCarro/Inicio.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Inicio.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ProductosYCarro/php/Inicio.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Inicio.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProductosCarro/Inicio.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="encabezado.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ProductosCarro/encabezado.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="productosCarro.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ProductosYCarro/php/productosCarro.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="productos.php" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:80/ProductosCarro/productos.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.productos.php" />
+      <item itemvalue="JavaScript Debug.Inicio.php" />
+      <item itemvalue="JavaScript Debug.Inicio.php (6)" />
+      <item itemvalue="JavaScript Debug.Inicio.php (2)" />
+      <item itemvalue="JavaScript Debug.encabezado.html" />
+      <item itemvalue="JavaScript Debug.Inicio.php (3)" />
+      <item itemvalue="JavaScript Debug.productosCarro.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Inicio.php (3)" />
+        <item itemvalue="JavaScript Debug.productosCarro.php" />
+        <item itemvalue="JavaScript Debug.encabezado.html" />
+        <item itemvalue="JavaScript Debug.Inicio.php (2)" />
+        <item itemvalue="JavaScript Debug.Inicio.php (6)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0d7c21f-4bd8-4f5f-9c99-b2b75a4246c9" name="Default Changelist" comment="" />
+      <created>1580458310115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580458310115</updated>
+      <workItem from="1580458315224" duration="2429000" />
+      <workItem from="1580622276589" duration="6592000" />
+      <workItem from="1580712250391" duration="3591000" />
+      <workItem from="1580715871051" duration="4927000" />
+      <workItem from="1581549861513" duration="19529000" />
+      <workItem from="1581627049954" duration="18233000" />
+      <workItem from="1581722289427" duration="17739000" />
+      <workItem from="1581885513745" duration="4135000" />
+      <workItem from="1581889673711" duration="131000" />
+      <workItem from="1581889853453" duration="5976000" />
+      <workItem from="1581902306306" duration="9334000" />
+      <workItem from="1581991060109" duration="19170000" />
+      <workItem from="1582069501400" duration="18144000" />
+      <workItem from="1582091207026" duration="657000" />
+      <workItem from="1582125512517" duration="3127000" />
+      <workItem from="1582153727020" duration="1823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
