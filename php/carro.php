@@ -12,11 +12,16 @@ if (isset($_GET['agregarProd'])) {
 } else if (isset($_GET['borrarProducto'])) {
 
     eliminarProducto($modelo);
+
+    //cuando se elimina un producto los indices del array se reordenan
+    $_SESSION['carro'] = array_values($_SESSION['carro']);
+
     header('location: productosCarro.php');
 
 } else if (isset($_GET['eliminarTodo'])) {
 
     unset($_SESSION['carro']);
+
     header('location: productosCarro.php');
 
 }
@@ -51,7 +56,12 @@ function agregarProducto($modelo)
 
         $fila = $resultado->fetch_assoc();
 
-        $carro = array(
+        //si el carro está vacio se lo declara como un array vacio, para luego agregarle elementos
+        if (empty($_SESSION['carro'])) {
+            $_SESSION['carro'] = array();
+        }
+
+        $producto = array(
             'modelo' => $modelo,
             'marca' => $marca,
             'precio' => $precio,
@@ -65,20 +75,9 @@ function agregarProducto($modelo)
             'bateria' => $fila['bateria'],
         );
 
-//si ya hay un producto en el carro se obtiene el indice, para agregarlo en el indice correspondiente
-//si todavia no hay ningun producto se lo asigna al primer indice (0)
+        //se agrega un producto (array) al final del array de carro
 
-        if (isset($_SESSION['carro'])) {
-
-            $i = $_SESSION['proximoIndice'];
-
-        } else {
-            $i = 0;
-        }
-
-        $_SESSION['carro'][$i] = $carro;
-
-        $_SESSION['proximoIndice'] = ++$i;
+        array_push($_SESSION['carro'], $producto);
 
     }
 }
@@ -90,17 +89,18 @@ function eliminarProducto($modelo)
 
 //se busca el producto mediante el modelo dentro del array de carro y se lo elimina
 //una vez que se lo encuentra y elimina, el ciclo while se detiene y se actualiza la pagina del carro
+
     while ($flag) {
 
         //se verifica que un producto exista en ese indice y que sea igual al modelo que queremos eliminar
-        if (!empty($_SESSION['carro'][$i]) && $_SESSION['carro'][$i]['modelo'] === $modelo) {
+        if ($_SESSION['carro'][$i]['modelo'] === $modelo) {
 
             unset($_SESSION['carro'][$i]);
             $flag = false;
         }
-
         $i++;
     }
+
 }
 
 function productoYaAgregado($modelo)
