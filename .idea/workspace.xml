@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProductosYCarro" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -64,7 +67,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Inicio.php (3)">
+  <component name="RunManager" selected="JavaScript Debug.Inicio.php (1)">
+    <configuration name="Inicio.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ProductosYCarro/php/Inicio.php">
+      <method v="2" />
+    </configuration>
     <configuration name="Inicio.php (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/80/ProductosCarro/Inicio.php">
       <method v="2" />
     </configuration>
@@ -95,12 +101,12 @@
       <item itemvalue="JavaScript Debug.Inicio.php (6)" />
       <item itemvalue="JavaScript Debug.Inicio.php (2)" />
       <item itemvalue="JavaScript Debug.encabezado.html" />
-      <item itemvalue="JavaScript Debug.Inicio.php (3)" />
       <item itemvalue="JavaScript Debug.productosCarro.php" />
+      <item itemvalue="JavaScript Debug.Inicio.php (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Inicio.php (3)" />
+        <item itemvalue="JavaScript Debug.Inicio.php (1)" />
         <item itemvalue="JavaScript Debug.productosCarro.php" />
         <item itemvalue="JavaScript Debug.encabezado.html" />
         <item itemvalue="JavaScript Debug.Inicio.php (2)" />
@@ -134,6 +140,8 @@
       <workItem from="1582091207026" duration="657000" />
       <workItem from="1582125512517" duration="3127000" />
       <workItem from="1582153727020" duration="1823000" />
+      <workItem from="1582244813566" duration="1017000" />
+      <workItem from="1582246028804" duration="8750000" />
     </task>
     <servers />
   </component>
